@@ -11,6 +11,7 @@ class Status extends Model
 
     public function user()
     {
+        // User::class为"App\Models\User.php"
         return $this->belongsTo(User::class);
     }
 }
